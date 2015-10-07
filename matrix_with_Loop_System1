@@ -1,0 +1,29 @@
+public class matrix_jhomog{
+public static void main(String[]args){
+//**The matrix manipulation**//
+int[][]matrix = new int[2][4];
+int[][]matrix1={{81,65,55,65},
+                {81,75,0,77}};
+                int[][]matrix2={{81,65,55,65},
+                                {81,75,0,77}};
+                                
+                                int i,j;
+                                Boolean z;
+                                z=false;
+                                
+                                for(i=0;i<10;++i){
+                                for(j=0;j<10;++j){
+                                if(matrix1[i][j] != matrix2[i][j])
+                                {
+                                System.out.println("The matrices are not equal");
+                                z=false;
+                                }
+                                else
+                                {
+                                System.out.println("The matrix are equal");
+                                }
+                                }
+                                ]
+                                }
+                                }
+                                }
